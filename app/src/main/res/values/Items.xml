@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Tea" type="string"></item>
+    <item name="Cafe" type="string"></item>
+    <item name="Espresso" type="string"></item>
+    <item name="Mocha" type="string"></item>
+    <item name="late" type="string"></item>
+    <item name="HOtChocolate" type="string"></item>
+    <item name="" type="string"></item>
+</resources>
