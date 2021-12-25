@@ -3,8 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/Menu/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/myapplication/Menu/app/src/main/res/layout/activity_main.xml" value="0.1421875" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/myapplication/Menu/app/src/main/res/layout/activity_receipt.xml" value="0.1421875" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/myapplication/MyApplication5/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/myapplication/MyApplication5/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/myapplication/MyApplication5/app/src/main/res/layout/activity_main3.xml" value="0.33" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/myapplication/src/main/res/layout/activity_lol.xml" value="0.14427083333333332" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/src/main/res/layout/activity_afterfogot.xml" value="0.22" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
         <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/src/main/res/layout/activity_menu.xml" value="0.1421875" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/src/main/res/layout/activity_newpass.xml" value="0.18" />
+        <entry key="..\:/Users/z_sal/AndroidStudioProjects/HCI/app/src/main/res/layout/activity_receipt.xml" value="0.128125" />
       </map>
     </option>
   </component>

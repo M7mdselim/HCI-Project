@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#F4F0F0"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="#FFFFFF"
+            android:padding="5sp"
+            android:text="Menu"
+            android:textColor="#795C34 "
+            android:textColorLink="#FFFFFF"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#795C34 "
+        android:gravity="bottom|left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drinks"
+            android:textColor="#FFFFFFFF"
+            android:textColorLink="#FFFFFFFF"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="619dp"
+        android:focusable="auto">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="175sp"
+            android:layout_height="175sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="235dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginBottom="60dp"
+            android:onClick="hotchocolate"
+            app:srcCompat="@drawable/hot_chocolate"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="175sp"
+            android:layout_height="175sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="234dp"
+            android:layout_marginLeft="234dp"
+            android:layout_marginTop="193dp"
+            android:onClick="esspresso"
+            app:srcCompat="@drawable/espresso"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="175sp"
+            android:layout_height="175sp"
+            android:layout_alignBottom="@+id/imageView5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="234dp"
+            android:layout_marginBottom="189dp"
+            android:onClick="tea"
+            app:srcCompat="@drawable/tea"
+            tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="146dp"
+            android:layout_marginLeft="146dp"
+            android:layout_marginBottom="9dp"
+            android:background="#795C34 "
+            android:onClick="order"
+            android:shadowColor="#FFFFFF"
+            android:text="Make order"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#795C34 "
+            app:backgroundTint="#795C34 "
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="175sp"
+            android:layout_height="175sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="233dp"
+            android:layout_marginLeft="233dp"
+            android:layout_marginBottom="443dp"
+            android:onClick="cofe"
+            app:srcCompat="@drawable/cafe"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="175sp"
+            android:layout_height="175sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="193dp"
+            android:onClick="latte"
+            app:srcCompat="@drawable/late_2"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="175sp"
+            android:layout_height="175sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="62dp"
+            android:onClick="mocca"
+            app:srcCompat="@drawable/mocca"
+            tools:ignore="OnClick" />
+
+    </RelativeLayout>
+
+</LinearLayout>

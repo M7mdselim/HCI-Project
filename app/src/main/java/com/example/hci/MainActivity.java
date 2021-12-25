@@ -2,6 +2,7 @@ package com.example.hci;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -37,10 +38,12 @@ TextView forgotPass;
     public void setLogin(){
         String user = username.getText().toString().trim();
         String pass = password.getText().toString().trim();
-        if (user.equals("selim") && pass.equals("selim")){
+        if (user.equals("admin") && pass.equals("admin")){
             Toast.makeText(this, "Username and Password Matched", Toast.LENGTH_LONG).show();
 
+Intent menu = new Intent(MainActivity.this , Menu.class);
 
+startActivity(menu);
         }
         else  {
             Toast.makeText(this, "Username and Password dosen't Matched", Toast.LENGTH_LONG).show();
@@ -55,6 +58,10 @@ TextView forgotPass;
     }
 
     public void click_forgotPasswrod(View view) {
+        Intent intent = new Intent(MainActivity.this , forgotPassword.class);
+        startActivity(intent);
 
     }
+
+
 }

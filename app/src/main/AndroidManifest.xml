@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HCI">
         <activity
+            android:name=".newpass"
+            android:exported="false" />
+        <activity
+            android:name=".afterfogot"
+            android:exported="false" />
+        <activity
+            android:name=".forgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Receipt"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
