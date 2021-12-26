@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class Menu extends AppCompatActivity {
     int numbercafe=0;
@@ -19,25 +20,33 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
     }
     public void tea(View view) {
+        Toast.makeText(this, "Added to Receipt", Toast.LENGTH_SHORT).show();
+
         numbertea++;
     }
     public void cofe(View view) {
+
+        Toast.makeText(this, "Added to Receipt", Toast.LENGTH_SHORT).show();
         numbercafe++;
     }
 
     public void latte(View view) {
+        Toast.makeText(this, "Added to Receipt", Toast.LENGTH_SHORT).show();
         numberlate++;
     }
 
     public void esspresso(View view) {
+        Toast.makeText(this, "Added to Receipt", Toast.LENGTH_SHORT).show();
         numberesprsso++;
     }
 
     public void mocca(View view) {
+        Toast.makeText(this, "Added to Receipt", Toast.LENGTH_SHORT).show();
         numbermocca++;
     }
 
     public void hotchocolate(View view) {
+        Toast.makeText(this, "Added to Receipt", Toast.LENGTH_SHORT).show();
         numberhot++;
     }
     public void order(View view) {

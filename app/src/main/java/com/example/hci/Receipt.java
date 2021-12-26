@@ -22,7 +22,7 @@ public class Receipt extends AppCompatActivity {
         int nm=getIntent().getIntExtra("numberofmocca",0);
         int nh=getIntent().getIntExtra("numberofhot",0);
         textView1=findViewById(R.id.one);
-        textView1.setText(("Tea.........................."+nt+"\n"+"Coffee........................"+nc+"\n"+"late........................."+nl+"\n"+"Espresso....................."+ne+"\n"+"Mocca........................"+nm+"\n"+"Hot Chocolate................"+nh).toString());
+        textView1.setText(("Tea.........................."+nt+"\n"+"Coffee........................"+nc+"\n"+"late........................."+nl+"\n"+"Espresso....................."+ne+"\n"+"Mocca........................"+nm+"\n"+"HotChocolate................"+nh).toString());
 
 
     }
